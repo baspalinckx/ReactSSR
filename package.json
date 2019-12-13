@@ -1,5 +1,5 @@
 {
-  "homepage": "http://baspalinckx.github.io/ReactSSR",
+  "homepage": "https://baspalinckx.github.io/ReactSSR/"",
   "name": "react-ssr",
   "version": "1.0.0",
   "description": "",
@@ -11,7 +11,9 @@
     "client": "webpack --watch --progress",
     "linter": "eslint src",
     "bundlesize": "bundlesize",
-    "precommit": "eslint src --quiet"
+    "precommit": "eslint src --quiet",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
