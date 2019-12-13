@@ -1,4 +1,5 @@
 {
+  "homepage": "http://baspalinckx.github.io/ReactSSR",
   "name": "react-ssr",
   "version": "1.0.0",
   "description": "",
@@ -46,6 +47,7 @@
     "eslint-plugin-react": "^7.5.1",
     "express": "^4.16.3",
     "friendly-errors-webpack-plugin": "^1.6.1",
+    "gh-pages": "^2.1.1",
     "husky": "^0.14.3",
     "jest": "^21.2.1",
     "mini-css-extract-plugin": "^0.7.0",
